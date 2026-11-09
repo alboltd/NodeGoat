@@ -62,6 +62,7 @@
     },
     "brace-expansion": "1.1.21",
     "bson": "1.1.6",
+    "cookie": "0.7.2",
     "decode-uri-component": "0.5.1",
     "define-property": {
       "kind-of": "6.0.3"
