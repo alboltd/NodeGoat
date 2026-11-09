@@ -91,6 +91,9 @@
     "nconf": "0.11.4",
     "path-to-regexp": "0.1.13",
     "proxy-addr": "2.0.8",
+    "request": {
+      "stringstream": "0.0.6"
+    },
     "semver": "5.7.3",
     "shelljs": "0.8.5",
     "snapdragon-node": {
