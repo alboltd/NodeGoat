@@ -54,6 +54,7 @@
     "base": {
       "kind-of": "6.0.3"
     },
+    "bl": "1.2.3",
     "body-parser": "1.20.9",
     "boxen": {
       "ansi-regex": "3.0.1"
