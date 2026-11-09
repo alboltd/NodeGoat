@@ -89,6 +89,7 @@
     "snapdragon-node": {
       "kind-of": "6.0.3"
     },
+    "tmp": "0.2.7",
     "underscore": "1.13.8",
     "websocket-driver": "0.7.5",
     "widest-line": {
