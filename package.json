@@ -47,6 +47,12 @@
   "main": "server.js",
   "name": "owasp-nodejs-goat",
   "overrides": {
+    "ansi-align": {
+      "ansi-regex": "3.0.1"
+    },
+    "boxen": {
+      "ansi-regex": "3.0.1"
+    },
     "bson": "1.1.6",
     "dot-prop": "4.2.1",
     "growl": "1.10.5",
@@ -60,6 +66,9 @@
     "shelljs": "0.8.5",
     "underscore": "1.13.8",
     "websocket-driver": "0.7.5",
+    "widest-line": {
+      "ansi-regex": "3.0.1"
+    },
     "y18n": "3.2.2"
   },
   "private": true,
