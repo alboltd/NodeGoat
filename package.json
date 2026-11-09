@@ -47,6 +47,8 @@
   "main": "server.js",
   "name": "owasp-nodejs-goat",
   "overrides": {
+    "growl": "1.10.5",
+    "mixin-deep": "1.3.2",
     "underscore": "1.13.8"
   },
   "private": true,
