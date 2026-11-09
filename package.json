@@ -47,6 +47,7 @@
   "main": "server.js",
   "name": "owasp-nodejs-goat",
   "overrides": {
+    "adm-zip": "0.6.1",
     "ansi-align": {
       "ansi-regex": "3.0.1"
     },
