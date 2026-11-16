@@ -114,6 +114,7 @@
       "kind-of": "6.0.3"
     },
     "tmp": "0.2.7",
+    "uglify-js": "2.8.29",
     "undefsafe": "2.0.5",
     "underscore": "1.13.8",
     "websocket-driver": "0.7.5",
