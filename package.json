@@ -102,6 +102,7 @@
     "on-headers": "1.1.0",
     "path-to-regexp": "0.1.13",
     "proxy-addr": "2.0.8",
+    "qs": "6.17.1",
     "request": {
       "stringstream": "0.0.6"
     },
