@@ -150,7 +150,21 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks("grunt-jsbeautifier");
     grunt.loadNpmTasks("grunt-retire"); // run as: grunt retire
     grunt.loadNpmTasks("grunt-if");
-    grunt.loadNpmTasks("grunt-npm-install");
+    grunt.registerTask("npm-install", "Install npm packages.", function() {
+        var done = this.async();
+        var child = require("child_process").spawn(
+            process.platform === "win32" ? "npm.cmd" : "npm",
+            ["install"].concat(this.args),
+            { stdio: "inherit" }
+        );
+
+        child.on("error", function(err) {
+            grunt.log.error(err);
+        });
+        child.on("close", function(code) {
+            done(code === 0);
+        });
+    });
 
     // Making grunt default to force in order not to break the project.
     grunt.option("force", true);
