@@ -52,6 +52,10 @@
     "ansi-align": {
       "ansi-regex": "3.0.1"
     },
+    "ansi-regex@\u003e=3 \u003c4": "3.0.1",
+    "ansi-regex@\u003e=4 \u003c5": "4.1.1",
+    "ansi-regex@\u003e=5 \u003c6": "5.0.1",
+    "ansi-regex@\u003e=6 \u003c7": "6.6.0",
     "base": {
       "kind-of": "6.0.3"
     },
@@ -96,7 +100,7 @@
       "kind-of": "6.0.3"
     },
     "nconf": "0.11.4",
-    "npm": "6.14.18",
+    "npm": "8.19.4",
     "nyc": "14.1.1",
     "on-headers": "1.1.0",
     "path-to-regexp": "0.1.13",
