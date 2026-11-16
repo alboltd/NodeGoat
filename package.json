@@ -22,7 +22,7 @@
   },
   "description": "A tool to learn OWASP Top 10 for node.js developers",
   "devDependencies": {
-    "async": "^2.0.0-rc.4",
+    "async": "2.6.4",
     "cross-env": "^7.0.2",
     "cypress": "^3.3.1",
     "grunt": "1.6.3",
@@ -76,6 +76,9 @@
     },
     "form-data": "2.5.6",
     "fsevents": "2.3.3",
+    "getos": {
+      "async": "2.6.4"
+    },
     "got@\u003c11": "11.8.6",
     "got@\u003e=11 \u003c12": "11.8.6",
     "got@\u003e=12 \u003c13": "12.6.1",
