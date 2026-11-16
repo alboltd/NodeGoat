@@ -119,6 +119,7 @@
       "kind-of": "6.0.3"
     },
     "tmp": "0.2.7",
+    "tunnel-agent": "0.6.0",
     "uglify-js": "2.8.29",
     "undefsafe": "2.0.5",
     "underscore": "1.13.8",
